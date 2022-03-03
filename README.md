@@ -1,5 +1,5 @@
 # react-manage-providers
-Library to manage react providers
+Library to manage react providers in a typesafe manner.
 
 ## Getting started
 ### Installation
