@@ -1,6 +1,6 @@
 {
   "name": "react-manage-providers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Library to manage react providers",
   "main": "lib-esm/index.js",
   "types": "lib-esm/index.d.ts",
