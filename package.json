@@ -1,0 +1,33 @@
+{
+  "name": "react-manage-providers",
+  "version": "0.0.1",
+  "description": "Library to manage react providers",
+  "main": "lib-esm/index.js",
+  "types": "lib-esm/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc --p tsconfig-npm.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brense/react-manage-providers.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "Rense Bakker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brense/react-manage-providers/issues"
+  },
+  "homepage": "https://github.com/brense/react-manage-providers#readme",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39"
+  }
+}
