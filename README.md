@@ -1,6 +1,19 @@
 # react-manage-providers
 Library to manage react providers in a typesafe manner.
 
+If you've worked with `useContext` or 3rd party providers in React, at some point, you probably ran into this hot mess:
+```jsx
+<TranslationsProvider>
+  <ThemeProvider theme={theme}>
+    <StoreProvider>
+      <AppContextProvider>
+        <App />
+      </AppContextProvider>
+    </StoreProvider>
+  </ThemeProvider>
+</TranslationsProvider>
+```
+
 ## Getting started
 ### Installation
 `npm i react-manage-providers`
