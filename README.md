@@ -27,19 +27,24 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
-or
+or manage your own providers:
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider, createTheme } from '@mui/material'
 import App, { AppContextProvider } from './App'
-import providers, { Provide } from 'react-manage-providers'
+import { Provide } from 'react-manage-providers'
 
 const theme = createTheme()
 
+const providers = [
+  [ThemeProvider, { theme }],
+  AppContextProvider
+]
+
 ReactDOM.render(
   <React.StrictMode>
-    <Provide providers={[[ThemeProvider, { theme }], AppContextProvider]}>
+    <Provide providers={providers}>
       <App />
     </Provide>
   </React.StrictMode>,
