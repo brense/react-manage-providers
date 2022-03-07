@@ -4,8 +4,6 @@
     "module": "commonjs",
     "jsx": "react",
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "outDir": "lib-esm",
     "strict": true,
     "esModuleInterop": true
