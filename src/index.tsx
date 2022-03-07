@@ -1,6 +1,6 @@
 import React from 'react'
 
-type ProviderComponent = React.ComponentType<{}>
+type ProviderComponent = React.ComponentType<any>
 
 export type Providers<T extends ProviderComponent> = Array<T | [T, Omit<React.ComponentProps<T>, 'children'>]>
 
